@@ -1,0 +1,28 @@
+{
+  "version": "2.6.2",
+  "release_version": "1.0",
+  "released_at": "2026-10-12",
+  "summary": {
+    "title": "water controller/distribution system threat model",
+    "owner": "Deyvid Thompson",
+    "description": "The threat model examines a simulated industrial water distribution system consisting of enterprise workstations, network infrastructure, SCADA/HMI software, an OpenPLC controller, and physical equipment including pumps, valves, and water-level sensors.\n\nThe model evaluates two attack scenarios: unauthorized Modbus TCP commands that manipulate the water tank's outlet valve, and hypothetical command-and-control communication using a non-standard network port.\n\nThe objective is to identify security weaknesses across enterprise, network, software, and physical layers, evaluate threats using STRIDE, and propose detection and mitigation strategies using network segmentation, access controls, and intrusion detection.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
